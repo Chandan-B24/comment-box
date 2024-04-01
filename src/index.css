@@ -1,0 +1,51 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  
+}
+
+.inputBox{
+  margin: 20px;
+  display: flex;
+  gap: 10px;
+  width: fit-content;
+}
+
+.inputBoxInput{
+  padding: 5px;
+  border-radius: 5px;
+}
+
+
+.commentButton{
+  padding: 8px;
+  color: white;
+  background-color: #40A2E3;
+  border: none;
+  border-radius: 6px;
+}
+
+.commentBox{
+  margin: 10px 10px 10px 0px;
+  padding: 8px;
+  background-color: #C7C8CC;
+  border: none;
+  border-radius: 6px;
+  width: fit-content;
+  cursor: pointer;
+}
+
+.actionButtonsGroup{
+  margin-top: 10px;
+  display: flex;
+  gap: 5px;
+}
+
+.actionButton{
+  border: none;
+  color: black;
+  cursor: pointer;
+  margin: 0px 5px;
+  background-color: #C7C8CC;
+}
